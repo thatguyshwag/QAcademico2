@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(179, 212, 240);
+}
+.header1 {
+    background-color: rgb(180, 173, 235); 
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.area-login {
+text-align: center;
+}
+.area-registrar {
+    text-align: center;
+}
+
+.area-registrar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.area-registrar input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.butoesMenu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.butoesMenu button {
+  display: block;
+}
+.butoesMenu2 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.butoesMenu2 button {
+    display: block;
+}
+
+body , h1 {
+    margin: 0;
+
+}
+
+
