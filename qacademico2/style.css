@@ -39,12 +39,30 @@ Esse codigo incompleto foi uma tentativa de tornar a borda do sapo em um circulo
 */
 
 .area-login {
-text-align: center;
+    text-align: center;
     display:flex;
-height:40vh;
-align-items: center;
-justify-content: center;
+    height:40vh;
+    align-items: center;
+    justify-content: center;
 }
+.area-login form {
+    display: table
+    
+}
+
+.center-form {
+    display:flex;
+    justify-content: center;
+}
+
+.area-login label {
+    display: table-cell;
+}
+
+.area-login input {
+    display:table-cell;
+}
+
 .area-registrar {
     text-align: center;
 }
@@ -81,6 +99,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    
 }
 .butoesMenu2 button {
     display: block;
