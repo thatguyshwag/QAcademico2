@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alterar Documentos</title>
+    </head>
+    <script>
+        function retorna() {
+            window.location.href="mainMenu.html"
+            return false
+        }
+      /* nao funciona como eu pensei que iria funcionar
+      function alterar() {
+        document.getElementById("alteraForm").addEventListener("click" ,
+        function (event) {
+            if (event.target.value === "Salvar") {
+                (event.target.value = "Salvo") ;
+            } else {
+                event.target.value = "Salvar" ;
+            }
+        }, 
+        false
+        );
+       }
+       */
+      function bruh() {
+        alert('Enviado');
+      }
+    
+        
+    </script>
+    <body>
+        <div class="retornaMenu">
+            <button onclick="retorna()">Retornar</button>
+        </div>
+        <h1> Imagem Do Aluno</h1>
+        <div class="imgAluno">   
+            <img src="https://ifpo.org.uk/wp-content/uploads/2020/10/cropped-9-93879_computer-icons-user-image-person-silhouette-user-silhouettes.png"
+            width="100";
+            height="100";
+            >
+        </div>
+        <div class="window">
+            
+        </div>
+
+
+        <div class="alteraDocumento">
+            <form id="alteraForm" action="javascript:alert('Enviado!');">
+                <input type="text" name="matriculaAlterada" placeholder="Nova Matricula">
+                <input type="password" name="senhaAlterada" placeholder="Nova Senha">
+                <input type="text" name="emailAlterado" placeholder="Novo Email">
+                <input type="text" name="explicarAlteracao" placeholder="Porque estou alterando meus dados?">
+                <input type="button" id="btn" value="Salvar" onclick="bruh()">
+            </form>
+        </div>
+
+    </body>
+
+
+</html>
